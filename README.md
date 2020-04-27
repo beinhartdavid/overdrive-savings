@@ -2,7 +2,7 @@
 
 ## About OverDrive:  
 
-OverDrive is _____ link to overdrive https://www.overdrive.com/ 
+OverDrive is a platform for finding digital content from Libraries. Think of all the information without any of the late fees, available to you instantly from anywhere in the world. link to overdrive https://www.overdrive.com/ 
 
 ## Project Description 
 
