@@ -24,6 +24,11 @@ Show the relationship between OverDrive, GoodReads, Amazon, and final KPI
 ## Next Steps/Suggestions
 
 
+## Resources 
+
+* [Connecting to Google Sheets](https://towardsdatascience.com/accessing-google-spreadsheet-data-using-python-90a5bc214fd2)
+
+
 
 
 
