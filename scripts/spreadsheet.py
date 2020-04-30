@@ -9,11 +9,28 @@ creds = ServiceAccountCredentials.from_json_keyfile_name("../secrets/Kindle Note
 client = gspread.authorize(creds)
 
 sheet = client.open('Kindle Notes').sheet1
-telemedicine = sheet.get_all_records()
-print(telemedicine)
+notes = sheet.get_all_records()
+#print(notes)
 
 pp = pprint.PrettyPrinter()
-employees = sheet.get_all_records()
-pp.pprint(employees)
+#employees = sheet.get_all_records()
+pp.pprint(notes)
 
-#"/secrets/Kindle Notes-7420d3fa2c18.json"
+Book = "Book 2"
+Author = "Author 2"
+Type = "Type 2"
+Location = "Location 2"
+Word = "Word 2"
+Sentance = "Sen 2"
+
+
+
+
+
+
+
+def insertValues(row):
+    index = 2
+    sheet.insert_row(row,index)
+
+
