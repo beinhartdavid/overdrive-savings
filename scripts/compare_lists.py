@@ -21,3 +21,8 @@ for i in range(3):
 
 str = "Highlight | loc: 159 "
 print(str.split("|")[1].split(":")[1].strip())
+
+
+lstttt = [[1,2,3],[4,5,6], [7,8,9]]
+lstttt[-1].append("H")
+print(lstttt)
